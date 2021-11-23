@@ -1,0 +1,14 @@
+@import "../../styles.scss";
+.navbar{
+
+    background-color: $color-navbar !important;
+   
+}
+
+a{
+    color: $color-font!important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end !important;
+}
