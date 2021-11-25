@@ -1,0 +1,77 @@
+@import "../../styles.scss";
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: $color-navbar;
+  padding: 25px 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+  color: $color-font;
+
+  div {
+    width: 33%;
+  }
+
+  li p {
+    margin-top: 0.5em;
+    margin-bottom: 0 !important;
+    color: $color-font;
+  }
+
+  .footerTitulo {
+    font-weight: 400;
+    font-size: x-large;
+  }
+
+  @media only screen and (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      div {
+        width: 100%;
+      }
+
+      ul {
+        margin-left: -1em;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    div {
+      text-align: center;
+      width: 100%;
+    }
+
+    ul {
+      margin-left: -1em;
+    }
+
+    .contenedorRedes {
+      text-align: center;
+      margin-left: 1em;
+
+      div {
+        width: 100%;
+      }
+    }
+  }
+}
